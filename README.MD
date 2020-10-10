@@ -1,17 +1,17 @@
-# hackernews-graphql-prisma
+# Hackernews in Nodejs and GraphQL
 In this project, I learned how to build a GraphQL server from scratch. The stack I used was based on `Node.js`, `graphql-yoga` and `Prisma`. 
 
 # How it is built:
 - Written in Node.js as its a simple yet powerful technology to use.
-- Making use `graphql-yoga` as its a fast and simple GraphQL server library built on top of Express.js. It comes with several features, such as out-of-the-box support for GraphQL Playgrounds and realtime GraphQL subscriptions.
+- Making use of `graphql-yoga` as its a fast and simple GraphQL server library built on top of `Express.js`. It comes with several features, such as out-of-the-box support for GraphQL Playgrounds and realtime GraphQL subscriptions.
 - The resolvers of the GraphQL server are implemented using `Prisma` Client which is responsible for database access.
 - Using `sqlite` as the database.
 
-# Features
-- Get A list links posted as feeds.
+# Features Implemented 
+- Get links posted as feeds.
 - Support pagination and sorting on feeds.
 - Support filtering on feeds.
-- Authentication using email and password with JWT token support.
+- Authentication using email and password with JWT support.
 - Vote on the links posted.
 - Update links posted.
 - Delete links posted.
