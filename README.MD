@@ -32,7 +32,7 @@ In this project, I learned how to build a GraphQL server from scratch. The stack
 - Sever should be running on http://localhost:4000.
 
 # How to use
-Follow [howtographql tutorial](https://www.howtographql.com/graphql-js/0-introduction/) where they give you request examples in every section.Here are some of them.
+Follow [howtographql tutorial](https://www.howtographql.com/graphql-js/0-introduction/) where they give you request examples in every section. Here are some of them.
 - Adding a new link.
 ```
 mutation {
